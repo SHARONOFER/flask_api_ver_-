@@ -17,7 +17,7 @@ def get_connection():
 
 
 ###########################################################################
-@app.route('/customers', methods=['GET'])    ##http://127.0.0.1:5000/customers
+@app.route('/customers', methods=['GET'])    ##http://0.0.0.0/customers
 
 def get_all_customers():
 
@@ -31,7 +31,7 @@ def get_all_customers():
 
 ############################################################################
 
-@app.route('/artists/<artist_id>', methods=['GET']) #http://127.0.0.1:5000/artists/1
+@app.route('/artists/<artist_id>', methods=['GET']) #http://0.0.0.0/artists/1
 def get_Artist (artist_id):
 
     conn = get_connection()
