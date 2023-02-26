@@ -10,12 +10,7 @@ app = Flask(__name__)
 # open connection to db.
 def get_connection():
     conn = sqlite3.connect('C:\db\chinook.db')
-    print ('çonn done')
-    print('çonn done2')
-    print('çonn done3')
-    print('çonn done4')
-    print ('test_5')
-    print ('8')
+    print('9')
     return conn
 
 ###########################################################################
